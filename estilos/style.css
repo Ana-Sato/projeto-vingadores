@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
 }
 
 header img {
@@ -39,6 +39,25 @@ nav a {
     transition: color 0.3s;
     
 }
+
 nav a:hover {
     color: red;
 }
+
+.hero {
+    background: url(../imagens/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+    height: 320px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero h1 {
+    color: #ebebeb;
+    font-size: 36px;
+}
+
