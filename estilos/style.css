@@ -10,6 +10,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     margin-bottom: 32px;
     padding-left: 8px;
@@ -41,10 +45,12 @@ a {
 
 header {
     padding: 8px 24px;
+}
+
+header .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header img {
@@ -86,7 +92,10 @@ nav a:hover {
 
 .hero h1 {
     color: #ebebeb;
+    padding: 4px ;
     font-size: 36px;
+    text-shadow: 2px 2px 12px #111111;
+
 }
 
 .galeria {
@@ -104,7 +113,7 @@ nav a:hover {
 
 }
 
-.gallery div {
+.gallery figure {
     /*flex-grow flex-shrink flex-basis*/
     flex: 1 1 250px;
 }
@@ -117,6 +126,11 @@ nav a:hover {
 
 .galeria p {
     font-weight: bold;
+}
+
+figcaption {
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .historia {
