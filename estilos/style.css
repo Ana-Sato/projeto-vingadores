@@ -10,9 +10,37 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #f13239;
+}
+
+a {
+    transition: color 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.dark {
+    background-color: #111111;
+}
+
+.darklink {
+    color: #f13239;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.darklink:hover {
+    color: #ebebeb;
+}
+
 header {
     padding: 8px 24px;
-    background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -37,9 +65,7 @@ header ul li {
 nav a {
     color: #ebebeb;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    
+    font-weight: bold;    
 }
 
 nav a:hover {
@@ -64,16 +90,11 @@ nav a:hover {
 }
 
 .galeria {
-    max-width: 1200px;
-    margin: 64px auto 0px;
-    padding: 0px 24px;
+    padding: 50px 0px 64px;
 }
 
 .galeria h2 {
     color: #111111;
-    margin-bottom: 32px;
-    padding-left: 8px;
-    border-left: 4px solid #f13239;
 }
 
 .gallery {
@@ -99,16 +120,12 @@ nav a:hover {
 }
 
 .historia {
-    background-color: #111111;
     color: #ebebeb;
-    margin: 64px 0px 0px;
-    padding: 92px 24px 0px;
+    padding: 64px 24px 0px;
     border-top: 4px solid #f13239;
 }
 
 .historia .container {
-    max-width: 1200px;
-    margin: 0px auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -127,9 +144,6 @@ nav a:hover {
 
 .historia h2 {
     color: #ebebeb;
-    margin-bottom: 32px;
-    padding-left: 8px;
-    border-left: 4px solid #f13239;
 }
 
 .historia p {
@@ -141,30 +155,9 @@ nav a:hover {
     margin-top: 30px;
 }
 
-.historia a {
-    color: #f13239;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.historia a:hover {
-    color: #ebebeb;
-}
-
 footer {
-    padding: 32px 24px;
-    background-color: #111111;
+    padding: 50px;
     color: #ebebeb;
     text-align: center;
 }
 
-footer a {
-    color: #f13239;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-footer a:hover {
-    color: #ebebeb;
-}
