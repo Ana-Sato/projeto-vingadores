@@ -11,15 +11,17 @@ body {
 }
 
 header {
+    padding: 8px 24px;
     background-color: #111111;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    flex-wrap: wrap;
 }
 
 header img {
     width: 180px;
+    padding: 20px 0px;
     
 }
 
@@ -68,6 +70,7 @@ nav a:hover {
 }
 
 .galeria h2 {
+    color: #111111;
     margin-bottom: 32px;
     padding-left: 8px;
     border-left: 4px solid #f13239;
@@ -93,4 +96,75 @@ nav a:hover {
 
 .galeria p {
     font-weight: bold;
+}
+
+.historia {
+    background-color: #111111;
+    color: #ebebeb;
+    margin: 64px 0px 0px;
+    padding: 92px 24px 0px;
+    border-top: 4px solid #f13239;
+}
+
+.historia .container {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #f13239;
+    gap: 24px;
+}
+
+.historia .container .coluna {
+    flex:  1 1 350px;
+}
+
+.historia .container .coluna img {
+    width: 100%;
+    display: block;
+}
+
+.historia h2 {
+    color: #ebebeb;
+    margin-bottom: 32px;
+    padding-left: 8px;
+    border-left: 4px solid #f13239;
+}
+
+.historia p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.historia p + p {
+    margin-top: 30px;
+}
+
+.historia a {
+    color: #f13239;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.historia a:hover {
+    color: #ebebeb;
+}
+
+footer {
+    padding: 32px 24px;
+    background-color: #111111;
+    color: #ebebeb;
+    text-align: center;
+}
+
+footer a {
+    color: #f13239;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ebebeb;
 }
